@@ -1,0 +1,70 @@
+/**
+* The following styles get applied both on the front of your site
+* and in the editor.
+*
+* Replace them with your own styles or remove the file completely.
+*/
+.wp-block-beautiful-captain-block-tab.tab-panel-wrapper {
+	box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.059);
+	border-radius: 10px;
+	background: #fff;
+	margin-bottom: 20px;
+	.tab-title {
+		padding: 20px 50px 20px 20px;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 24px;
+		cursor: pointer;
+		position: relative;
+		&:before {
+			content: "";
+			display: inline-block;
+			width: 0;
+			height: 0;
+			position: absolute;
+			border-left: 10px solid transparent;
+			border-right: 10px solid transparent;
+			border-top: 10px solid #fff;
+			right: 20px;
+			top: 50%;
+			margin-top: -7px;
+			transition: transform 0.5s;
+			transform: rotate(0deg);
+			z-index: 1;
+		}
+		&:after {
+			content: "";
+			display: inline-block;
+			width: 0;
+			height: 0;
+			position: absolute;
+			border-left: 10px solid transparent;
+			border-right: 10px solid transparent;
+			border-top: 10px solid #000;
+			Horizontal-align: middle;
+			right: 20px;
+			top: 50%;
+			margin-top: -5px;
+			transition: transform 0.5s;
+			transform: rotate(0deg);
+		}
+		&.active::before,
+		&.active::after {
+			transform: rotate(180deg);
+		}
+	}
+	.tab-panel {
+		padding: 0 20px 30px 20px;
+		display: none;
+		p:last-child {
+			margin: 0;
+		}
+	}
+}
+.border-Accordion1 .wp-block-beautiful-captain-block-tab.tab-panel-wrapper{
+    border-right: 5px solid;
+    border-radius: 10px 0 0 10px;
+}
+.simpleborder-Accordion1 .wp-block-beautiful-captain-block-tab.tab-panel-wrapper{
+    border: 2px solid #ccc;
+}
