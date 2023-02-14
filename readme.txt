@@ -6,7 +6,7 @@ Stable tag:        0.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
-Example static block scaffolded with Create Block tool.
+Beautiful accordion will let you add beautiful accordions in your pages, posts, and anywhere. It also supports nested accordions.
 
 == Description ==
 

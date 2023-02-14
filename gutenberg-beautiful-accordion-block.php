@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name:       Gutenberg Beautiful Accordion Block
- * Description:       Example static block scaffolded with Create Block tool.
+ * Description:       Beautiful accordion will let you add beautiful accordions in your pages, posts, and anywhere. It also supports nested accordions.
  * Requires at least: 5.9
  * Requires PHP:      7.0
  * Version:           0.1.0
- * Author:            The WordPress Contributors
+ * Author:            amjadkambohwp
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       gutenberg-beautiful-accordion-block

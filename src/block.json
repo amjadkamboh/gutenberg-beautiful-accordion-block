@@ -6,7 +6,7 @@
 	"title": "Gutenberg Beautiful Accordion Block",
 	"category": "widgets",
 	"icon": "superhero",
-	"description": "Example static block scaffolded with Create Block tool.",
+	"description": "Beautiful accordion will let you add beautiful accordions in your pages, posts, and anywhere. It also supports nested accordions.",
 	"supports": {
 		"html": false
 	},
